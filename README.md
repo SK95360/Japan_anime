@@ -21,8 +21,7 @@ Cette application affiche la liste de quelques films Ghibli et utilise une API "
 ## Fonctionnalités: 
 
 ### Ecran Home 
-
-
+<img src="https://github.com/SK95360/Japan_anime/blob/master/Screen/japan_n.jpg">
 - Affiche la liste des films du Studio Ghibli.
 
 <img src="https://zupimages.net/up/19/14/zf91.jpg" alt="liste movie">
