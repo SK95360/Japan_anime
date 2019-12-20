@@ -14,6 +14,8 @@ Cette application affiche la liste de quelques films Ghibli et utilise une API "
 - Affichage d'une liste dans un RecyclerView
 - Affichage du détail d'un item de la liste
 - Gitflow propre
+-Fragment pour l'affichage de listes
+
 
 
 ## Fonctionnalités: 
