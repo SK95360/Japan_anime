@@ -1,14 +1,14 @@
 package fr.sylvain.myapplication.controller;
+
+
 import android.content.Context;
-import android.media.Image;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 
@@ -16,7 +16,6 @@ import java.util.List;
 
 import fr.sylvain.myapplication.R;
 import fr.sylvain.myapplication.model.Movie;
-import fr.sylvain.myapplication.view.MainActivity;
 import fr.sylvain.myapplication.view.MovieFrag;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {

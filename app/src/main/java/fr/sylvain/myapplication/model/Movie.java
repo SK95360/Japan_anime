@@ -66,4 +66,3 @@ public class Movie {
         this.rt_score = rt_score;
     }
 }
-

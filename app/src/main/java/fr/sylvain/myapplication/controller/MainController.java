@@ -1,5 +1,5 @@
 package fr.sylvain.myapplication.controller;
-import android.support.v4.app.FragmentActivity;
+
 import android.util.Log;
 
 import com.google.gson.Gson;
@@ -7,7 +7,6 @@ import com.google.gson.GsonBuilder;
 
 import java.util.List;
 
-import fr.sylvain.myapplication.view.MainActivity;
 import fr.sylvain.myapplication.model.Movie;
 import fr.sylvain.myapplication.model.MovieRestAPI;
 import fr.sylvain.myapplication.view.MovieFrag;
@@ -35,7 +34,7 @@ public class MainController {
 
         //On crée un objet retrofit
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://ghibliapi.herokuapp.com")
+                .baseUrl("https://ghibliapi.herokuapp.com/")
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 

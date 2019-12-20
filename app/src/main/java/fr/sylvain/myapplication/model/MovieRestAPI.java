@@ -8,10 +8,10 @@ import retrofit2.http.Path;
 
 public interface MovieRestAPI {
 
-    @GET("ghibli.json")
+    @GET("films")
     Call<List<Movie>> getListMovie();
 
-    @GET("{id}.json")
+    @GET("{id}")
     Call<Movie> getMovie(@Path("id") String id);
 
 }
