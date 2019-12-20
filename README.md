@@ -26,7 +26,7 @@ Cette application affiche la liste de quelques films Ghibli et utilise une API "
 
 <img src="https://zupimages.net/up/19/14/zf91.jpg" alt="liste movie">
 
-### Ecran du détail du pokémon
+### Ecran du détail des Films
 
 - Affiche les différentes informations sur le film 
 - Descriptif du films
